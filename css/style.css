@@ -1,0 +1,109 @@
+/* Fundo moderno com gradiente */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Container centralizado com efeito de vidro */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilização do título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Contador grande e destacado */
+#contador {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Mudança de cor do contador */
+.positivo {
+    color: #4CAF50;
+}
+
+.negativo {
+    color: #f44336;
+}
+
+.neutro {
+    color: white;
+}
+
+/* Estilização dos botões */
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+/* Efeito dos botões */
+#incrementar {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(76, 175, 80, 0.3);
+}
+
+#incrementar:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#decrementar {
+    background-color: #f44336;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(244, 67, 54, 0.3);
+}
+
+#decrementar:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+#resetar {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 140, 186, 0.3);
+}
+
+#resetar:hover {
+    background-color: #007bb5;
+    transform: scale(1.05);
+}
